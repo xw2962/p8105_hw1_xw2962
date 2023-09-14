@@ -34,7 +34,7 @@ ggsave("scatter_plot_hw1_q1.pdf",height=4,width=4)
 ```
 
 #### Describe patterns that are apparent in this plot
-The temp increases with the increasing time_hour. And humid increases with increasing temp.
+The temp increases with the increasing time_hour. The temp reaches maximum value around Jan 14th. And humid increases with increasing temp. 
 
 ## Problem 2
 
@@ -68,7 +68,7 @@ con_factor
 #### Description for converting the variables 
 When converting logical variables to numeric variables, only 0 and 1 show as the outputs. When converting character variables to numeric variables, all outputs show NA. When converting factor variables to numeric variables, the number 1, 2, 3 indicating the three levels of the factor variables are shown as outputs.  
 
-For the logical variables, only two situations can appear. That is larger than zero or smaller than zero. Thus only 0 representing smaller than zero and 1 representing larger than zero can appear as outputs when converting to numeric variables. For the character variables, since all inputs are strings which can not be converted to numeric variables, all the outputs are shown as NA or none. For the factor variables, since we create three different factor levels, we can see 1, 2 and 3 representing each one of the factor levels shown as the outputs. 
+For the logical variables, only two situations can appear. That is， larger than zero or smaller than zero. Thus only 0 representing smaller than zero and 1 representing larger than zero can appear as outputs when converting to numeric variables. For the character variables, since all inputs are strings which can not be converted to numeric variables, all the outputs are shown as NA or none. For the factor variables, since we create three different factor levels, we can see 1, 2 and 3 representing each one of the factor levels shown as the outputs. 
 
 This can explain what happened when I tried to take the means. For the character variables, since they cannot be converted to numeric variables, we cannot take the means for these character variables. And for the factor variables, numbers are representing the three different factor levels when converting to numeric variables, we also couldn't take the means for these factor variables.    
 
