@@ -38,7 +38,7 @@ The temp increases with the increasing time_hour. The temp reaches maximum value
 
 ## Problem 2
 
-#### Dataframe creation 
+#### Dataframe Creation and Variable Means 
 ```{r dataframe}
 example_df = tibble(
   norm_samp = rnorm(10),
