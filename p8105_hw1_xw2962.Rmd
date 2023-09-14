@@ -70,7 +70,7 @@ When converting logical variables to numeric variables, only 0 and 1 show as the
 
 For the logical variables, only two situations can appear. That is, larger than zero(TRUE) or smaller than zero(FALSE). Thus only 0 representing smaller than zero and 1 representing larger than zero can appear as outputs when converting to numeric variables. For the character variables, since all inputs are strings which can not be converted to numeric variables, all the outputs are shown as NA or none. For the factor variables, since we create three different factor levels, we can see 1, 2 and 3 representing each one of the factor levels shown as the outputs. 
 
-This can explain what happened when I tried to take the means. For the character variables, since they cannot be converted to numeric variables, we cannot take the means for these character variables. And for the factor variables, numbers are representing the three different factor levels when converting to numeric variables, we also couldn't take the means for these factor variables.    
+This can explain what happened when I tried to take the means. For the character variables, since they cannot be converted to numeric variables, we cannot take the means for these character variables. And for the factor variables, numbers are representing the three different factor levels without meaningful numeric values when converting to numeric variables, we also couldn't take the means for these factor variables.   
 
 
 
