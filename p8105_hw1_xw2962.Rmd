@@ -1,0 +1,42 @@
+---
+title: "p8105_hw1_xw2962"
+author: "Xiaoyu Wu"
+date: "2023-09-14"
+output: github_document
+---
+## Problem 1 
+
+#### Load the moderndive library
+```{r setup}
+library(tidyverse)
+library(moderndive)
+```
+
+#### Load the early_january_weather dataset
+```{r dataset_load}
+data("early_january_weather")
+```
+
+#### Short Description of the Dataset
+
+This dataset has 15 variables: `r colnames(early_january_weather)`
+
+There are `r nrow(early_january_weather)` rows. And there are `r ncol(early_january_weather)` columns. 
+
+The mean of the temperature is `r mean(early_january_weather$temp)`
+
+#### Making a scatterplot
+```{r scatterplot}
+time_hour=early_january_weather$time_hour
+temp=early_january_weather$temp
+ggplot(early_january_weather, aes(x = time_hour, y = temp,color=humid)) + geom_point()
+ggsave("scatter_plot_hw1_q1.pdf",height=4,width=4)
+```
+
+#### Describe patterns that are apparent in this plot
+The temp increases with the increasing time_hour. And humid increases with increasing temp.  
+
+
+
+
+
