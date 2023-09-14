@@ -19,13 +19,13 @@ data("early_january_weather")
 
 #### Short Description of the Dataset
 
-This dataset has 15 variables: `r colnames(early_january_weather)`
+This dataset has 15 variables `r colnames(early_january_weather)`
 
-There are `r nrow(early_january_weather)` rows. And there are `r ncol(early_january_weather)` columns. 
+There are `r nrow(early_january_weather)` rows. And there are `r ncol(early_january_weather)` columns
 
 The mean of the temperature is `r mean(early_january_weather$temp)`
 
-#### Making a scatterplot
+#### Making a scatterplot and Save the Plot 
 ```{r scatterplot}
 time_hour=early_january_weather$time_hour
 temp=early_january_weather$temp
