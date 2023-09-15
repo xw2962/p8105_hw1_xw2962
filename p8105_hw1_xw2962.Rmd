@@ -26,7 +26,7 @@ In this dataset, there are `r nrow(early_january_weather)` rows. And there are `
 
 The mean of the temperature is `r mean(early_january_weather$temp)`. 
 
-#### Making a scatterplot and Save the Plot 
+#### Make a scatterplot and Save the Plot 
 ```{r scatterplot}
 time_hour=early_january_weather$time_hour
 temp=early_january_weather$temp
