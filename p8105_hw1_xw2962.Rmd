@@ -24,7 +24,7 @@ Dataset "ealry_january_weather" shows the weather in EWR during 15 days of Jan 2
 
 In this dataset, there are `r nrow(early_january_weather)` rows. And there are `r ncol(early_january_weather)` columns. Thus, the size of the dataset is `r nrow(early_january_weather)` rows times `r ncol(early_january_weather)` columns.  
 
-The mean of the temperature is `r mean(early_january_weather$temp)`
+The mean of the temperature is `r mean(early_january_weather$temp)`. 
 
 #### Making a scatterplot and Save the Plot 
 ```{r scatterplot}
