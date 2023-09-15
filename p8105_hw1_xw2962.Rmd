@@ -19,9 +19,10 @@ data("early_january_weather")
 
 #### Short Description of the Dataset
 
-This dataset has 15 variables `r colnames(early_january_weather)`
+Dataset "ealry_january_weather" shows the weather in EWR during 15 days of Jan 2013. This dataset has 15 variables: `r colnames(early_january_weather)`. Here we consider variables "temp", "humid", "wind_speed" and "dewp" to be important for analysis. The variable "temp" has mean `r mean(early_january_weather$temp)` and standard deviation `r sd(early_january_weather$temp)`. The variable "humid" has mean `r mean(early_january_weather$humid)` and standard deviation `r sd(early_january_weather$humid)`. The variable "wind_speed" has mean `r mean(early_january_weather$wind_speed)` and standard deviation `r sd(early_january_weather$wind_speed)`. The variable "dewp" has mean `r mean(early_january_weather$dewp)` and standard deviation `r sd(early_january_weather$dewp)`.          
 
-There are `r nrow(early_january_weather)` rows. And there are `r ncol(early_january_weather)` columns
+
+In this dataset, there are `r nrow(early_january_weather)` rows. And there are `r ncol(early_january_weather)` columns. Thus, the size of the dataset is `r nrow(early_january_weather)` rows times `r ncol(early_january_weather)` columns.  
 
 The mean of the temperature is `r mean(early_january_weather$temp)`
 
